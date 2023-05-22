@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Paytone+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  width: 100%;
+  font-family: "Paytone One", sans-serif;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.header .header-left {
+  grid-column: 1/2;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.header .header-right {
+  grid-column: 2/3;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.header .header-right .header-menu-desktop ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.header .header-right .header-menu-desktop li {
+  display: inline;
+  margin-left: 100px;
+}
+.header .header-right .header-menu-desktop a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.header__main {
+  margin-top: 58px;
+  padding: 0% 6.88% 0% 6.88%;
+  position: fixed;
+  width: 100%;
+}
+
+.hero-section {
+  background-image: url("../images/background.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.hero-section h1 {
+  font-size: 142px;
+  font-weight: 800;
+  color: #ffffff;
+  letter-spacing: 10px;
+}
+.hero-section h2 {
+  color: #ffffff;
+  font-size: 20px;
+}
+.hero-section .pop-it__hero-section {
+  padding-top: 284px;
+}
+.hero-section .buy-big {
+  font-size: 24px;
+  font-weight: 500;
+  padding: 35px 105px 35px 105px;
+  background-color: #cbf3f0;
+  border: none;
+}
+.hero-section .buy-big__pop-it-slogan {
+  margin-top: 120px;
+}
+.hero-section .buy-big__hero-section {
+  margin-bottom: 160px;
+}
+
+.hero__main {
+  padding: 0% 6.88% 0% 6.88%;
+}
+
+.what-is-pop-it__main {
+  padding: 0% 6.88% 0% 6.88%;
+}
+
+.what-is-pop-it {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+.what-is-pop-it h2 {
+  font-size: 25px;
+  font-weight: 600;
+}
+.what-is-pop-it p {
+  font-size: 17px;
+  font-weight: 400;
+  text-align: center;
+}
+.what-is-pop-it .title__description {
+  margin-top: 30px;
+}
+
+.choose-pop-it {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #cbf3f0;
+  padding-top: 156px;
+  padding-bottom: 141px;
+}
+.choose-pop-it h2 {
+  font-size: 25px;
+  font-weight: 600;
+}
+.choose-pop-it .choice-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 80%;
+}
+.choose-pop-it .choice-grid .grid-one {
+  grid-column: 1/2;
+}
+.choose-pop-it .choice-grid .grid-two {
+  grid-column: 2/3;
+}
+.choose-pop-it .choice-grid .grid-three {
+  grid-column: 3/4;
+}
+.choose-pop-it .choice-grid .grid-one,
+.choose-pop-it .choice-grid .grid-two,
+.choose-pop-it .choice-grid .grid-three {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.choose-pop-it .choice-grid .grid-one .pop-it-photo,
+.choose-pop-it .choice-grid .grid-two .pop-it-photo,
+.choose-pop-it .choice-grid .grid-three .pop-it-photo {
+  max-height: 212px;
+}
+.choose-pop-it .choice-grid .grid-one .description,
+.choose-pop-it .choice-grid .grid-two .description,
+.choose-pop-it .choice-grid .grid-three .description {
+  text-align: center;
+  font-size: 17px;
+}
+.choose-pop-it .choice-grid .grid-one .buy-small,
+.choose-pop-it .choice-grid .grid-two .buy-small,
+.choose-pop-it .choice-grid .grid-three .buy-small {
+  font-size: 16px;
+  padding: 20px 43px 20px 43px;
+  background-color: #ffbf69;
+  border: none;
+}
+
+.choose_pop-it__main {
+  padding: 0% 6.88% 0% 6.88%;
+}
+
+.title__choice-grid {
+  margin-top: 60px;
+}
+
+.photo__description {
+  margin-top: 27px;
+}
+
+.button__description {
+  margin-top: 29px;
+}/*# sourceMappingURL=style.css.map */
