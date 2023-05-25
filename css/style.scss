@@ -161,7 +161,7 @@
 
         a {
             display: block;
-            padding: 10px;
+            padding: 25px;
             text-decoration: none;
             color: black;
         }
@@ -508,4 +508,51 @@
         grid-template-columns: 1fr;
     }
 
+    .rules-section .rules-grid .grid-one,
+    .rules-section .rules-grid .grid-two{
+        grid-column: 1/2;
+        margin-bottom: 30px;
+    }
+
+}
+
+@media (max-width: 480px){
+
+    .hero-section .pop-it__hero-section{
+        padding-top: 100px;
+    }
+    .hero-section h1{
+        font-size: 100px;
+    }
+
+    .hero-section .buy-big{
+        font-size: 18px;
+    }
+
+    .footer{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .footer .footer-menu-desktop {
+        ul {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+    
+        li {
+            margin-bottom: 5px;
+        }
+    
+        a {
+            display: inline-block;
+            text-decoration: none;
+            color: #ffffff;
+        }
+    
+    }
 }
